@@ -6,24 +6,28 @@ body {
     height:100%;
 
 }
-ul.a {
+.top-menu-list .a {
     list-style-type: none;
     text-decoration: none;
     margin: -60px;
     font-size: 16px;
     overflow: hidden;
   }
+  .top-menu-list a:hover {
+    color: cyan;
+}
   
-  li.x {
-      float: left;
+  .top-menu-list .x {
+    float: left;
       
   }
   
-  li a {
+  .top-menu-list a {
     display: block;
     padding: 15px;
     text-decoration: none;
     color: brown;
+    
     
   }
   table {
@@ -107,18 +111,60 @@ td {
     
     }
     .cont{
+    color: #444444;
+    width: 85%;
+}
+.cont1{
     margin-top:3%;
-    margin-left:30%;
-    margin-right:25%;
+    width: 50%;
+    margin-left:450px;
+    float: left;
     font-style: normal;
     font-size: 15px;
     line-height: 22px;
     font-family: Assistant, sans-serif;
     line-height: 150%;
-    color: #444444;
+    
+
 }
+
 .cont2{
-    margin-top: 1%;
+    margin-top:10%;
+    margin-left: 20px;
+    width: 15%;
+    float: right;
+    font-family: Assistant, sans-serif;
+    
+    
+    
+}
+.cont li{
+  margin: 8px 0;
+}
+.cont2 ul{
+  margin: 0 0 0 15px;
+  padding: 0;
+}
+.cont2 a{
+  text-decoration: none;
+  color: #1a7878;
+  
+}
+
+.search-form{
+  margin-bottom: 15px;
+  outline: none;
+}
+.search-field{
+  border: 1px #eee solid;
+  padding: 6px;
+}
+.search-submit{
+  background-color: #1a7878;
+  border: none;
+  color: #ffffff;
+  padding: 6px 10px;
+  cursor: pointer;
 }
 .head2{
 color: #444444;
