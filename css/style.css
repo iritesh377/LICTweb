@@ -412,4 +412,8 @@ height: 360px;
   .box input[type = "submit"]:hover{
     background: #2ecc71;
   }
+
+.paupau{
+    display:none
+}
   /* //form// */
